@@ -1,0 +1,30 @@
+body{
+  background-color: grey;
+  
+}
+#partyForm{
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  row-gap: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#formSubmit{
+  margin: 7px;
+  border: none;
+  background-color: rgb(108, 194, 223);
+  border-radius: 5px;
+  height: 25px;
+  font-size: 15px;
+  
+}
+#formSubmit:hover{
+  background-color: rgb(56, 126, 150) ;
+  color: white;
+}
+#scheduledPartys{
+  margin: 10px;
+  font-size: 25px;
+}
